@@ -2,7 +2,7 @@
 
 | Test Area              | Scenario                                                             | Expected Result                                             | Tool/Method            | Result | Notes |
 |------------------------|----------------------------------------------------------------------|-------------------------------------------------------------|------------------------|--------|-------|
-| Keyboard Navigation    | Navigate all menu items using Tab/Shift+Tab                         | Focus is visible and logical                               | Manual                 |        |       |
+| Keyboard Navigation    | Navigate all menu items using Tab/Shift+Tab                         | Focus is visible and logical                               | Manual                 |    PASS  |  Focus rigns appear. Logical order. Screenshot added     |
 | Skip to Content Link   | Check for skip link                                                  | Link exists and jumps to content                           | Keyboard / Manual      |        |       |
 | Screen Reader Labels   | Headings are read in correct order                                  | Logical H1 → H2 structure                                  | NVDA / VoiceOver       |        |       |
 | ARIA Landmarks         | Page regions are announced properly                                 | Main, Navigation, Banner announced                         | NVDA / HTML inspection |        |       |
